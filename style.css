@@ -1,0 +1,46 @@
+canvas{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 25px;
+    position: relative;
+}
+
+body {
+    padding-top: 50px;
+    margin: 0;
+    display: flex;
+
+    /* This centers our sketch horizontally. */
+    justify-content: center;
+
+    /* This centers our sketch vertically. */
+    /* align-items: center; */
+    text-align: center  !important;
+    font-size: 45px !important;
+}
+
+#buttons{
+
+    position: absolute;
+    padding-top: 300px; 
+}
+
+
+.divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
+}
+
+body{
+    background: -webkit-linear-gradient(70deg,#5ac8fa  50%, #ff6464 50%);
+    background: -o-linear-gradient(70deg, #5ac8fa 50%,  50%);
+    background: -moz-linear-gradient(70deg, #5ac8fa 50%, #ff6464 50%);
+    background: linear-gradient(70deg, #5ac8fa 50%, #ff6464  50%);
+
+}
+
+.title{
+    position: absolute;
+}
