@@ -117,7 +117,7 @@ function guess() {
 		// model.predict(input).print();
 		pred = model.predict(inputTensor).argMax(1).toString();
 		var num = pred.match(/\d/g);
-		document.getElementById("predict").innerHTML = "Look like a <strong>" + num + "</strong>"
+		document.getElementById("predict").innerHTML = "Look's like a <strong>" + num + "</strong>"
 	});
 
 }
